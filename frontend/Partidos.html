@@ -1,0 +1,32 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GUARDAR PARTIDO</title>
+    <link rel="stylesheet" href="css/estilo.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body">
+       <div id="form" name="form">
+        <h1>GUARDAR PARTIDO</h1>
+          <h1>FECHA</h1>
+          <input class="input" style="width: 30%" type="date" name="fecha" id="fecha">
+          <h1>LOCAL</h1>   
+          <select id="local" name="local" style="width: 30%" class="input">
+            <option value="">equipo local</option>
+          </select>
+          <input class="input" style="width: 30%" type="text" placeholder="Goles local" id="goles_local">
+          <h1> VISITA</h1>
+          <select id="visitante" name="visitante" style="width: 30%" class="input">
+            <option value="">equipo visitante</option>
+          </select>
+     
+          <input class="input" style="width: 30%" type="text" placeholder="Goles visitante" id="goles_visitante">
+        <br>
+        <button class="boton" id="guardar">Guardar</button>
+      </div>
+ </body>
+</html>
+<script src="js/partidos.js"></script>
